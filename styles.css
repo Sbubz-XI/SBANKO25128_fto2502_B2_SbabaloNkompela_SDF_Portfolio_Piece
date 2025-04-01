@@ -26,6 +26,7 @@ header {
 
 .Proficiency ol {
     list-style-type: none;
+    font-family: 'inter', sans-serif;
     font-weight: 700;
 }
 
@@ -33,7 +34,6 @@ header {
     display: flex;
 }
 
-}
 
 .skill {
     margin-bottom: 20px;
