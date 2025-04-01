@@ -1,15 +1,74 @@
-. {
-    margin: 0;
+@import "tailwindcss";
+@import "font.css"
+
+. {}
+
+body {
+    background-image: url(pictures/background.png);
+    background-size: cover;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px #dadada;
+    padding: 24px;
 }
 
 header {
     display: flex;
 }
 
-.profile-picture {
-    background-image: url(pictures/profile-pic.jpg);
-    width: 300px;
-    height: 300px;
+.profile-picture {}
+
+.Proficiency ol {
+    list-style-type: none;
+    font-weight: 700;
 }
 
-h1 {}
+.Proficiency li {
+    display: flex;
+}
+
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 6px
+}
+
+.level {
+    height: 100%;
+    position: absolute;
+}
+
+.beginner {
+    width: 30%;
+    background-color: #396B5E;
+}
+
+.intermediate {
+    width: 60%;
+    background-color: #396B5E;
+}
+
+.advanced {
+    width: 90%;
+    background-color: #396B5E;
+}
