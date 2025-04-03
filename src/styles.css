@@ -12,6 +12,7 @@ body {
 
 .card-container {
     background-color: #ffffff;
+    background-size: cover;
     border-radius: 12px;
     box-shadow: 0px 2px 6px #dadada;
     padding: 1.5rem;
