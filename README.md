@@ -2,7 +2,8 @@
 
 ## 🌟 Introduction
 Welcome to my personal **developer portfolio**! This project showcases my skills, experience, and projects in **web development**, with a focus on **responsive design** and **Tailwind CSS**. Through this portfolio, I aim to present my journey as a software developer, highlight my proficiency in various technologies, and share my past work.
-
+-video link
+   -[Google drive](https://drive.google.com/file/d/11KWsBOFS37r2-isJdgDTJsPq76Fjp8zr/view?usp=drive_link)
 ## 📜 Features & Sections
 This portfolio is structured into several key sections:
 
