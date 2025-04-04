@@ -24,22 +24,20 @@
 </head>
 
 <body
-    class="bg-[url('/pictures/background.png')] bg-center bg-repeat justify-center items-center w-full h-full lg:px-15 lg:py-10 sm:px10 sm:py-5">
+    class="bg-[url('/pictures/background.png')] bg-center bg-repeat justify-center items-center w-full h-full lg:px-15 lg:py-10 px10 py-5">
     <!-- profile picture & Bio -->
-    <header
-        class="grid  max-h-[300px] w-full lg:grid-cols-4 sm:grid-cols-2 sm:grid-rows-1 lg:grid-rows-1 lg:gap-3 mb-4">
+    <header class="flex flex-row  max-h-[300px] w-full lg:mb-4 sm:mb-4 lg:gap-3 gap-3 mb-4">
 
         <!-- Profile Picture Container -->
         <div
-            class="sm:col-span-1 lg:col-span-1 rounded-2xl max-h-[300px] max-w-[300px] shadow-md flex items-center justify-center">
+            class="sm:col-span-2 lg:col-span-2 rounded-2xl max-h-[300px] max-w-[300px] shadow-md flex items-center justify-center sm:w-1/3 ">
             <img src="pictures/profile-picture.png" alt="Profile Picture" class="sm:w-full lg:w-full rounded-2xl">
         </div>
 
         <!-- Bio Content Container -->
-        <div
-            class="bg-white rounded-2xl shadow-md max-w-full px-6 py-6 flex flex-col justify-center lg:col-span-3 sm:col-span-1">
-            <h1 class="mb-2 sm:text-lg lg:text-2xl font-bold">Sbabalo Nkompela</h1>
-            <p class="text-[#4A4A4A] lg:text-xl sm:text-md leading-relaxed">
+        <div class="bg-white rounded-2xl shadow-md w-full px-6 py-6">
+            <h1 class="mb-2 text-2xl font-bold">Sbabalo Nkompela</h1>
+            <p class="text-[#4A4A4A] text- w-full lg:text-2xl sm:text-md">
                 I'm a software developer specializing in HTML & CSS, crafting clean, responsive, and scalable
                 applications. I focus on layout precision, accessibility, and fluid UI while leveraging Tailwind CSS,
                 Git, and rem calculations to optimize workflows and ensure seamless adaptability across devices.
@@ -55,7 +53,7 @@
         <!-- Proficiency -->
         <section class="bg-white rounded-2xl shadow-lg px-7 py-10.25 gap-2.5 lg:col-span-2 sm:col-span-2">
 
-            <h2 class="text-2xl font-bold mb-4">Proficiency</h2>
+            <h2 class="text-2xl font-extrabold mb-4">Proficiency</h2>
 
             <!-- Proficiency Levels -->
             <div class="levels flex justify-between text-sm font-semibold mb-4">
@@ -101,55 +99,55 @@
         <section class="bg-white rounded-2xl shadow-lg px-10 py-8 
                 sm:col-span-2 lg:col-span-2">
 
-            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <h2 class="text-2xl font-extrabold mb-4">Skills</h2>
 
             <!-- Skills List -->
             <ul class="flex flex-wrap space-y-2 gap-3 text-[#4A4A4A]">
                 <li
-                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-md font-medium">
                     Git & Version Control
                 </li>
                 <li
-                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-md font-medium">
                     Problem Solving
                 </li>
                 <li
-                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-md font-medium">
                     Web Development
                 </li>
                 <li
-                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-md font-medium">
                     Team Collaboration
                 </li>
                 <li
-                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-md font-medium">
                     Functional Programming
                 </li>
                 <li
-                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-md font-medium">
                     Frontend Development
                 </li>
                 <li
-                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-md font-medium">
                     Adaptability
                 </li>
                 <li
-                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-md font-medium">
                     Accountability
                 </li>
             </ul>
 
         </section>
 
-        <section class="lg:col-span-4 sm:2 bg-white rounded-2xl shadow-lg px-10 py-8 row-span-1">
+        <section class="lg:col-span-4 sm:col-span-2 bg-white rounded-2xl shadow-lg px-10 py-8 row-span-1">
 
-            <h2 class="text-xl font-bold text-center mb-6">Projects</h2>
+            <h2 class="text-2xl font-bold text-center mb-6">Projects</h2>
 
             <!-- Projects Grid -->
             <div class="grid gap-6 lg:grid-cols-4 sm:grid-cols-2">
 
                 <!-- Portfolio Project Card -->
-                <article class="bg-[#2E6E5B] rounded-2xl shadow-lg px-8 py-6 text-white">
+                <article class="bg-[#2E6E5B] hover:bg-[#255b4b] rounded-2xl shadow-lg px-8 py-6 text-white">
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="text-lg font-semibold">2025</h3>
                         <img src="icons/Vector.png" alt="heart">
@@ -166,7 +164,7 @@
                 </article>
 
                 <!-- Cs Instagram Project Card -->
-                <article class="bg-[#E7F0EC] rounded-2xl shadow-lg px-8 py-6">
+                <article class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl shadow-lg px-8 py-6">
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="text-lg font-semibold">2025</h3>
                         <img src="icons/Vector.png" alt="heart">
@@ -184,7 +182,7 @@
                 </article>
 
                 <!-- Html Portfolio Project Card -->
-                <article class="bg-[#E7F0EC] rounded-2xl shadow-lg px-8 py-6">
+                <article class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl shadow-lg px-8 py-6">
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="text-lg font-semibold">2025</h3>
                         <img src="icons/Vector.png" alt="heart">
@@ -202,7 +200,7 @@
                 </article>
 
                 <!-- HTML Responsive Footer Project Card -->
-                <article class="bg-[#E7F0EC] rounded-2xl shadow-lg px-8 py-6">
+                <article class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl shadow-lg px-8 py-6">
                     <div class="flex items-center justify-between mb-4">
                         <h3 class="text-lg font-semibold">2025</h3>
                         <img src="icons/Vector.png" alt="heart">
@@ -225,16 +223,16 @@
         <section class="bg-white rounded-2xl shadow-lg px-10 py-8 
                 lg:col-span-3 sm:col-span-2">
 
-            <h2 class="text-xl font-bold text-center mb-6">Education</h2>
+            <h2 class="text-2xl font-extrabold text-center mb-6">Education</h2>
 
             <!-- CodeSpace Academy -->
-            <article class="Edu-card-1 bg-gray-100 p-6 rounded-xl shadow-md mb-4">
+            <article class="Edu-card bg-[#2E6E5B] hover:bg-[#255b4b] p-6 rounded-xl shadow-md mb-4 gap-4">
                 <div>
-                    <h4 class="text-lg font-semibold">Feb 2024 - Present</h4>
-                    <h3 class="text-xl font-bold">CodeSpace Academy</h3>
-                    <p class="text-md font-medium">Full Stack Software Development Bootcamp</p>
+                    <h4 class="lg:text-lg sm:text-md font-light">Feb 2024 - Present</h4>
+                    <h3 class="lg:text-xl sm:text-lg font-bold">CodeSpace Academy</h3>
+                    <p class="lg:text-md sm:text-sm font-light">Full Stack Software Development Bootcamp</p>
                 </div>
-                <ul class="list-disc list-inside mt-4">
+                <ul class="list-disc list-outside mt-4 font-medium lg:text-lg sm:text-md">
                     <li>Mastering web development fundamentals: HTML, CSS, and JavaScript.</li>
                     <li>Building responsive web applications using modern frameworks.</li>
                     <li>Hands-on experience with Git & version control systems.</li>
@@ -242,13 +240,13 @@
             </article>
 
             <!-- Capsicum Culinary Studio -->
-            <article class="Edu-card bg-gray-100 p-6 rounded-xl shadow-md mb-4">
+            <article class="Edu-card bg-[#E7F0EC] hover:bg-[#d1dad6] p-6 rounded-xl shadow-md mb-4 gap-4">
                 <div>
-                    <h4 class="text-lg font-semibold">Feb 2021 - Dec 2023</h4>
-                    <h3 class="text-xl font-bold">Capsicum Culinary Studio</h3>
-                    <p class="text-md font-medium">Bachelor in Culinary Arts</p>
+                    <h4 class="lg:text-lg sm:text-md font-light">Feb 2021 - Dec 2023</h4>
+                    <h3 class="lg:text-xl sm:text-lg font-bold">Capsicum Culinary Studio</h3>
+                    <p class="lg:text-md sm:text-sm font-light">Bachelor in Culinary Arts</p>
                 </div>
-                <ul class="list-disc list-inside mt-4">
+                <ul class="list-disc list-outside mt-4 font-medium lg:text-lg sm:text-md">
                     <li>Developed quick problem-solving skills, adjusting recipes on the fly.</li>
                     <li>Customized dishes based on dietary needs, refining creative problem-solving.</li>
                     <li>Gained team collaboration experience, strengthening teamwork dynamics.</li>
@@ -256,13 +254,13 @@
             </article>
 
             <!-- Pinelands High School -->
-            <article class="Edu-card bg-gray-100 p-6 rounded-xl shadow-md">
+            <article class="Edu-card bg-[#E7F0EC] hover:bg-[#d1dad6] p-6 rounded-xl shadow-md gap-5">
                 <div>
-                    <h4 class="text-lg font-semibold">Jan 2016 - Nov 2020</h4>
-                    <h3 class="text-xl font-bold">Pinelands High School</h3>
-                    <p class="text-md font-medium">Matric | NQF Level 4</p>
+                    <h4 class="lg:text-lg sm:text-md font-light">Jan 2016 - Nov 2020</h4>
+                    <h3 class="lg:text-xl sm:text-lg font-bold">Pinelands High School</h3>
+                    <p class="lg:text-md sm:text-sm font-light">Matric | NQF Level 4</p>
                 </div>
-                <ul class="list-disc list-inside mt-4">
+                <ul class="list-disc list-outside mt-4 font-medium lg:text-lg sm:text-md">
                     <li>Built a foundation in Computer Applications Technology (CAT).</li>
                     <li>Learned HTML fundamentals, sparking an interest in web development.</li>
                     <li>Developed communication & teamwork skills, overcoming obstacles collaboratively.</li>
@@ -275,13 +273,13 @@
                 lg:col-span-1 sm:col-span-2 w-full">
 
             <h2 class="text-2xl font-extrabold text-center mb-6">Tools</h2>
-            <div class="flex gap-2 ">
+            <div class="flex flex-wrap gap-4 justify-center ">
                 <!-- Languages -->
                 <div class="mb-6">
                     <h3 class="bg-black text-white rounded-2xl text-center px-1 py-1 text-lg font-semibold">
                         Languages
                     </h3>
-                    <ul class="bg-[#E7F0EC] rounded-2xl grid grid-cols-2 gap-4 p-6">
+                    <ul class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl grid grid-cols-2 gap-4 p-6">
                         <li><img src="icons/html-logo.png" alt="HTML Logo" class=""></li>
                         <li><img src="icons/css-logo.png" alt="CSS Logo" class=""></li>
                         <li><img src="icons/tailwind-logo.png" alt="Tailwind Logo" class=""></li>
@@ -294,7 +292,7 @@
                     <h3 class="bg-black text-white rounded-2xl text-center px-1 py-1 text-lg font-semibold">
                         Design
                     </h3>
-                    <ul class="bg-[#E7F0EC] rounded-2xl grid grid-cols-2 gap-4 p-6">
+                    <ul class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl grid grid-cols-2 gap-4 p-6">
                         <li><img src="icons/icons8-google 1.png" alt="Google Design Tool" class=""></li>
                         <li><img src="icons/icons8-microsoft 1.png" alt="Microsoft Design Tool" class=""></li>
                     </ul>
@@ -305,7 +303,7 @@
                     <h3 class="bg-black text-white rounded-2xl text-center px-1 py-1 text-lg font-semibold">
                         Development Tools
                     </h3>
-                    <ul class="bg-[#E7F0EC] rounded-2xl grid grid-cols-2 gap-4 p-6">
+                    <ul class="bg-[#E7F0EC] hover:bg-[#d1dad6] rounded-2xl grid grid-cols-2 gap-4 p-6">
                         <li><img src="icons/icons8-git 1.png" alt="Git Logo" class=""></li>
                         <li><img src="icons/icons8-github 1.png" alt="GitHub Logo" class=""></li>
                         <li><img src="icons/icons8-npm 1.png" alt="NPM Logo" class=""></li>
@@ -319,19 +317,20 @@
         <section class="bg-white rounded-2xl shadow-lg px-10 py-8 
                 lg:col-span-4 sm:col-span-2 sm:row-span-1 lg:row-span-1">
 
-            <h2 class="text-xl font-bold text-center mb-6">Experience</h2>
+            <h2 class="text-xl font-extrabold text-center mb-6">Experience</h2>
 
             <!-- Blockbuster Talent Agency -->
-            <article class="bg-[#2E6E5B] p-6 rounded-xl shadow-md mb-4 relative">
-                <p class="bg-[#D76239] text-white rounded-lg text-center px-4 py-2 absolute top-2 right-2">
+            <article
+                class="bg-[#2E6E5B] hover:bg-[#255b4b] text-white p-6 rounded-xl flex flex-row shadow-md mb-4 gap-4 relative">
+                <p class="bg-[#D76239] rounded-lg text-center px-4 py-2 absolute top-2 right-2">
                     Most Recent
                 </p>
                 <div>
-                    <h4 class="text-lg font-semibold">Nov 2020 - Present</h4>
-                    <h3 class="text-xl font-bold">Actor/Background Actor</h3>
-                    <p class="text-md font-medium">Blockbuster Talent Agency</p>
+                    <h4 class="lg:text-lg sm:text-md font-light">Nov 2020 - Present</h4>
+                    <h3 class="lg:text-xl sm:text-lg font-semibold">Actor/Background Actor</h3>
+                    <p class="lg:text-md sm:text-sm font-light">Blockbuster Talent Agency</p>
                 </div>
-                <ul class="list-disc list-inside mt-4">
+                <ul class="list-disc list-inside mt-4 gap-5 font-normal lg:text-lg sm:text-md">
                     <li>Expressiveness & Body Language. Mastering non-verbal communication, enhancing emotional depth.
                     </li>
                     <li>Quick Thinking & Improvisation. Adjusting seamlessly to unexpected changes on set</li>
@@ -340,13 +339,13 @@
             </article>
 
             <!-- Playtopia -->
-            <article class="bg-gray-100 p-6 rounded-xl shadow-md mb-4">
+            <article class="bg-[#E7F0EC] hover:bg-[#d1dad6] p-6 rounded-xl flex flex-row shadow-md mb-4 r">
                 <div>
-                    <h4 class="text-lg font-semibold">Oct 2024 - Dec 2024</h4>
-                    <h3 class="text-xl font-bold">Volunteer</h3>
-                    <p class="text-md font-medium">Playtopia</p>
+                    <h4 class="lg:text-lg sm:text-md font-light">Oct 2024 - Dec 2024</h4>
+                    <h3 class="lg:text-xl sm:text-lg font-semibold">Volunteer</h3>
+                    <p class="lg:text-md sm:text-sm font-light">Playtopia</p>
                 </div>
-                <ul class="list-disc list-inside mt-4">
+                <ul class="list-disc list-inside mt-4 gap-5 font-normal lg:text-lg sm:text-md">
                     <li>Technical Troubleshooting. Helping set up gaming hardware, assisting with VR setups, and solving
                         tech issues.
                     </li>
@@ -358,14 +357,14 @@
                 </ul>
             </article>
 
-            <!-- Pinelands High School -->
-            <article class="bg-gray-100 p-6 rounded-xl shadow-md">
-                <div>
-                    <h4 class="text-lg font-semibold">Jan 2018 - Nov 2020</h4>
-                    <h3 class="text-xl font-bold">Waiter</h3>
-                    <p class="text-md font-medium">Ou Meul|Part-time</p>
+            <!-- Ou Meul -->
+            <article class="bg-[#E7F0EC] hover:bg-[#d1dad6] p-6 rounded-xl flex flex-row shadow-md">
+                <div class="block">
+                    <h4 class="lg:text-lg sm:text-md font-light">Jan 2018 - Nov 2020</h4>
+                    <h3 class="lg:text-xl sm:text-lg font-semibold">Waiter</h3>
+                    <p class="lg:text-md sm:text-sm font-light">Ou Meul|Part-time</p>
                 </div>
-                <ul class="list-disc list-inside mt-4">
+                <ul class="list-disc list-inside mt-4 gap-5 font-normal lg:text-lg sm:text-md">
                     <li>Multitasking. Managing multiple tables, orders, and requests without losing efficiency.
                     </li>
                     <li>Adaptability. Adjusting to sudden rushes, handling tough customers, and working in fast-paced
@@ -380,8 +379,8 @@
 
     </main>
 
-    <footer class="bg-[#D76239] w-full h-auto text-white p-7.26 rounded-2xl shadow-lg">
-        <h2> Let's chat! I'm ready to work on exciting projects.</h2>
+    <footer class="bg-[#D76239] w-full h-auto  text-white p-7 space-y-3 rounded-2xl shadow-lg flex flex-wrap mt-4">
+        <h2 class="text-2xl"> Let's chat! I'm ready to work on exciting projects.</h2>
 
         <p>
             <a href="mailto:sbabalo.nkompela111@gmail.com">sbabalo.nkompela111@gmail.com</a> |
