@@ -23,71 +23,73 @@
 
 </head>
 
-<body>
-    <header class="grid grid-cols-4 grid-rows-2 gap-2 mb-4 w-[90%] h-[90%]">
+<body
+    class="bg-[url('/pictures/background.png')] bg-cover bg-center bg-no-repeat justify-center items-center w-screen h-screen lg:px-15 lg:py-10 sm:px10 sm:py-5">
+    <!-- profile picture & Bio -->
+    <header
+        class="grid  max-h-[300px] w-full lg:grid-cols-4 sm:grid-cols-2 sm:grid-rows-1 lg:grid-rows-1 lg:gap-3 mb-4">
 
-        <div>
-            <img src="pictures/profile-picture.png" alt="Profile Picture"
-                class="rounded-2xl shadow- object-cover col-span-1">
+        <!-- Profile Picture Container -->
+        <div
+            class="sm:col-span-1 lg:col-span-1 rounded-2xl max-h-[300px] max-w-[300px] shadow-md flex items-center justify-center">
+            <img src="pictures/profile-picture.png" alt="Profile Picture" class="sm:w-full lg:w-full rounded-2xl">
         </div>
 
-        <div class="bg-white rounded-2xl shadow-[] px-17.25 py-14.75 col-span-3 row-span-1">
-
-            <h1 class="text-2xl mb-2">Sbabalo Nkompela</h1>
-            <p class="text-[#4A4A4A] ">I'm a web developer passionate about responsive design, clean
-                UI/UX,
-                and
-                utility-first styling using
-                Tailwind CSS. My expertise includes HTML, CSS, Git & Version Control, allowing me to craft scalable and
-                well-structured designs.
-                Currently, I focus on fine-tuning layouts, mastering rem calculations, and troubleshooting Git issues to
-                optimize development workflows. I refine my frontend skills daily, ensuring smooth responsive designs
-                that adapt across all screen sizes.
-                As I build my portfolio, I integrate Tailwind CSS and custom CSS to enhance visual appeal and maintain
-                flexibility in styling. Exploring Google Fonts, box-shadow, and filter effects helps me create polished
-                interfaces.
-                Beyond coding, I actively improve Git proficiency, ensuring seamless repository management, debugging
-                commits, and optimizing collaboration. My structured learning approach helps me refine my technical
-                expertise while expanding into advanced CSS techniques.
+        <!-- Bio Content Container -->
+        <div
+            class="bg-white rounded-2xl shadow-md max-w-full px-6 py-6 flex flex-col justify-center lg:col-span-3 sm:col-span-1">
+            <h1 class="mb-2 sm:text-lg lg:text-2xl font-bold">Sbabalo Nkompela</h1>
+            <p class="text-[#4A4A4A] lg:text-xl sm:text-md leading-relaxed">
+                I'm a software developer specializing in HTML & CSS, crafting clean, responsive, and scalable
+                applications. I focus on layout precision, accessibility, and fluid UI while leveraging Tailwind CSS,
+                Git, and rem calculations to optimize workflows and ensure seamless adaptability across devices.
             </p>
-
         </div>
 
+    </header>
 
+    <!-- Proficiency to Experience -->
+    <main
+        class="grid w-full min-w-[318px] h-auto gap-6 sm:gap-2 lg:gap-4 lg:grid-cols-4 sm:grid-cols-2 lg:grid-rows-auto sm:grid-rows-auto">
 
-        <section class="bg-white rounded-2xl shadow-lg px-15 py-10 col-span-2 row-span-1">
-            <h2>Proficiency</h2>
+        <!-- Proficiency -->
+        <section class="bg-white rounded-2xl shadow-lg px-7 py-10.25 gap-2.5 lg:col-span-2 sm:col-span-2">
 
-            <div class="levels">
+            <h2 class="text-2xl font-bold mb-4">Proficiency</h2>
+
+            <!-- Proficiency Levels -->
+            <div class="levels flex justify-between text-sm font-semibold mb-4">
                 <h3>Beginner</h3>
                 <h3>Intermediate</h3>
-                <h3>Advance</h3>
+                <h3>Advanced</h3>
             </div>
-            <div>
+
+            <!-- Proficiency Bar Section -->
+            <div class="space-y-4">
                 <div class="skill">
-                    <h3>HTML</h3>
-                    <div class="bar">
+                    <h3 class="text-lg font-medium">HTML</h3>
+                    <div class="bar bg-gray-300 h-4 rounded-md">
                         <div class="level beginner"></div>
                     </div>
                 </div>
 
                 <div class="skill">
-                    <h3>CSS</h3>
-                    <div class="bar">
+                    <h3 class="text-lg font-medium">CSS</h3>
+                    <div class="bar bg-gray-300 h-4 rounded-md">
                         <div class="level intermediate"></div>
                     </div>
                 </div>
 
                 <div class="skill">
-                    <h3>Node.js</h3>
-                    <div class="bar">
+                    <h3 class="text-lg font-medium">Node.js</h3>
+                    <div class="bar bg-gray-300 h-4 rounded-md">
                         <div class="level advanced"></div>
                     </div>
                 </div>
 
                 <div class="skill">
-                    <h3>Git and Version control</h3>
-                    <div class="bar">
+                    <h3 class="text-lg font-medium">Git and Version Control</h3>
+                    <div class="bar bg-gray-300 h-4 rounded-md">
                         <div class="level intermediate"></div>
                     </div>
                 </div>
@@ -95,258 +97,249 @@
 
         </section>
 
+        <!-- Skills -->
+        <section class="bg-white rounded-2xl shadow-lg px-10 py-8 
+                sm:col-span-2 lg:col-span-2">
 
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
 
-
-
-        <section class="bg-white rounded-2xl shadow-lg px-15 py-10 col-span-2 row-span-1">
-            <h2>Skills</h2>
-            <ul class="flex flex-wrap justify-center">
-                <li class="bg-[#E7F0EC] rounded-2xl">Software Development</li>
-                <li class="bg-[#E7F0EC] rounded-2xl">Git and Version Control</li>
-                <li class="bg-[#E7F0EC] rounded-2xl">Problem Solving</li>
-                <li class="bg-[#E7F0EC] rounded-2xl">Web Development</li>
-                <li class="bg-[#E7F0EC] rounded-2xl">Team Collaboration</li>
-                <li class="bg-[#E7F0EC] rounded-2xl">Functional Programming</li>
-                <li class="bg-[#E7F0EC] rounded-2xl">Frontend Development</li>
-                <li class="bg-[#E7F0EC] rounded-2xl">Adaptability</li>
-                <li class="bg-[#E7F0EC] rounded-2xl">Accountability</li>
+            <!-- Skills List -->
+            <ul class="flex flex-wrap space-y-2 gap-3 text-[#4A4A4A]">
+                <li
+                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    Git & Version Control
+                </li>
+                <li
+                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    Problem Solving
+                </li>
+                <li
+                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    Web Development
+                </li>
+                <li
+                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    Team Collaboration
+                </li>
+                <li
+                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    Functional Programming
+                </li>
+                <li
+                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    Frontend Development
+                </li>
+                <li
+                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    Adaptability
+                </li>
+                <li
+                    class="bg-[#E7F0EC] rounded-2xl px-3 py-1 h-auto flex items-center justify-center text-lg font-medium">
+                    Accountability
+                </li>
             </ul>
-        </section>
-
-    </header>
-
-    <main class="grid grid-cols-4 grid-rows-4 gap-2 w-[90%] h-[90%]">
-
-        <section class="Projects col-span-4">
-
-            <div class="bg-white rounded-2xl shadow-lg px-15 py-10 col-span-1 row-span-1">
-
-                <h2>Projects</h2>
-
-                <div class="flex gap-2">
-
-                    <article class="card-1">
-                        <div>
-                            <h3>Project 1</h3>
-                            <img src="icons/Vector.png" alt="heart" class="">
-                        </div>
-                        <p>Project description goes here.</p>
-                    </article>
-
-                    <article class="card">
-
-                        <div>
-                            <h3>Project 2</h3>
-                            <img src="icons/Vector.png" alt="heart" class="icon">
-
-                        </div>
-                        <p>Project description goes here.</p>
-                    </article>
-
-                    <article class="card">
-
-                        <div>
-                            <h3>Project 3</h3>
-                            <img src="icons/Vector.png" alt="heart" class="icon">
-
-                        </div>
-                        <p>Project description goes here.</p>
-                    </article>
-
-                    <article class="card">
-
-                        <div>
-                            <h3>Project 4</h3>
-                            <img src="icons/Vector.png" alt="heart" class="icon">
-
-                        </div>
-
-                        <p>Project description goes here.</p>
-                    </article>
-
-                </div>
-
-            </div>
 
         </section>
 
+        <section class="lg:col-span-4 sm:2 bg-white rounded-2xl shadow-lg px-10 py-8 row-span-1">
 
+            <h2 class="text-xl font-bold text-center mb-6">Projects</h2>
 
-        <section class="Education col-span-3">
+            <!-- Projects Grid -->
+            <div class="grid gap-6 lg:grid-cols-4 sm:grid-cols-2">
 
-            <div class="bg-white rounded-2xl shadow-lg px-15 py-10">
-
-                <h2>Education</h2>
-
-                <article class="Edu-card-1">
-                    <div>
-                        <h4>Feb 2024 - Present</h4>
-                        <h3>CodeSpace Academy</h3>
-                        <p>Full Stack Software Development Bootcamp</p>
+                <!-- Project Card -->
+                <article class="bg-[#2E6E5B] rounded-2xl shadow-lg px-8 py-6 text-white">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold">2025</h3>
+                        <img src="icons/Vector.png" alt="heart">
                     </div>
-
-                    <ul>
-                        <li>Learning the fundamentals of web development, including HTML, CSS, and JavaScript.</li>
-                        <li>Building responsive web applications using modern frameworks and libraries.</li>
-                        <li>Gaining hands-on experience with version control systems like Git.</li>
-
-                    </ul>
+                    <div class="space-y-2">
+                        <h3 class="text-lg font-medium">Project Name</h3>
+                        <h4 class="text-md font-semibold">Brief</h4>
+                        <p>Project description goes here.</p>
+                        <h4 class="text-md font-semibold">Technologies</h4>
+                        <p>Tech stack details here.</p>
+                        <h4 class="text-md font-semibold">Responsibilities</h4>
+                        <p>Role and contributions.</p>
+                    </div>
                 </article>
 
-                <article class="Edu-card">
-                    <div>
-                        <h4>Fed 2021 - Dec 2023</h4>
-                        <h3>Capsicum Culinary Studio</h3>
-                        <p>Bachelor in Culinary Arts</p>
+                <!-- Project Card -->
+                <article class="bg-[#E7F0EC] rounded-2xl shadow-lg px-8 py-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-semibold">2025</h3>
+                        <img src="icons/Vector.png" alt="heart">
                     </div>
-
-                    <ul>
-                        <li>Navigating unexpected challenges—like adjusting a recipe when ingredients ran out—taught
-                            me
-                            to
-                            think quickly and find alternative solutions.
-                        </li>
-                        <li>Customizing dishes to meet dietary needs or preferences taught me how to approach
-                            problem-solving with creativity, much like refining design choices in development.</li>
-                        <li> Balancing individual responsibilities while contributing to group efforts strengthened
-                            my
-                            understanding of team dynamics in a professional setting.</li>
-
-                    </ul>
+                    <div class="space-y-2">
+                        <h3 class="text-lg font-medium">Project Name</h3>
+                        <h4 class="text-md font-semibold">Brief</h4>
+                        <p>Project description goes here.</p>
+                        <h4 class="text-md font-semibold">Technologies</h4>
+                        <p>Tech stack details here.</p>
+                        <h4 class="text-md font-semibold">Responsibilities</h4>
+                        <p>Role and contributions.</p>
+                    </div>
                 </article>
 
-                <article class="Edu-card">
-                    <div>
-                        <h4>Jan 2016 - Nov 2020</h4>
-                        <h3>Pinelands High School</h3>
-                        <p>Matric|NQF level 4</p>
-                    </div>
-
-
-                    <ul>
-                        <li>I developed a strong foundation in Computer Applications Technology (CAT), which
-                            equipped me
-                            with essential digital skills and enhanced my confidence in navigating and working
-                            efficiently with computers.</li>
-                        <li>I built my first HTML foundations, learning how to structure web pages with semantic
-                            elements, experiment with basic styling, and develop a fundamental understanding of
-                            coding
-                            principles that sparked my passion.</li>
-                        <li>I learned how to communicate effectively, adapt to different perspectives, and work
-                            efficiently
-                            to overcome obstacles as part of a team.</li>
-
-                    </ul>
-
-                </article>
-
+                <!-- Repeat for other projects -->
             </div>
 
         </section>
 
-        <section class="col-span-1 bg-white rounded-2xl shadow-lg px-15 py-10">
+        <section class="bg-white rounded-2xl shadow-lg px-10 py-8 
+                lg:col-span-3 sm:col-span-2">
 
-            <h2>Tools</h2>
-            <div class="bg-[#E7F0EC]">
-                <h3>Languages</h3>
-                <ul>
-                    <li><img src="icons/html-logo.png" alt="" class="icon"></li>
-                    <li><img src="icons/css-logo.png" alt="" class="icon"></li>
-                    <li><img src="icons/tailwind-logo.png" alt="" class="icon"></li>
-                    <li><img src="icons/node-logo.png" alt="" class="icon"></li>
-                </ul>
-            </div>
+            <h2 class="text-xl font-bold text-center mb-6">Education</h2>
 
-            <div class="bg-[#E7F0EC]">
-                <h3>Design</h3>
-                <ul>
-                    <li><img src="icons/icons8-google 1.png" alt="" class="icon"></li>
-                    <li><img src="icons/icons8-microsoft 1.png" alt="" class="icon"></li>
-                </ul>
-            </div>
-
-            <div class="bg-[#E7F0EC]">
-                <h3>Tools</h3>
-                <ul>
-                    <li><img src="icons/icons8-git 1.png" alt="" class="icon"></li>
-                    <li><img src="icons/icons8-github 1.png" alt="" class="icon"></li>
-                    <li><img src="icons/icons8-npm 1.png" alt="" class="icon"></li>
-                    <li><img src="icons/icons8-visual-studio 1.png" alt="" class="icon"></li>
-                </ul>
-            </div>
-
-        </section>
-
-
-
-        <section class="bg-white rounded-2xl shadow-lg px-15 py-10 col-span-4">
-            <h2>Experience</h2>
-
-            <article class="Edu-card-1">
+            <!-- CodeSpace Academy -->
+            <article class="Edu-card-1 bg-gray-100 p-6 rounded-xl shadow-md mb-4">
                 <div>
-                    <h4>Nov 2020 - Present</h4>
-                    <h3>Blockbuster Talent Agency</h3>
-                    <p>Actor/Background Actor</p>
+                    <h4 class="text-lg font-semibold">Feb 2024 - Present</h4>
+                    <h3 class="text-xl font-bold">CodeSpace Academy</h3>
+                    <p class="text-md font-medium">Full Stack Software Development Bootcamp</p>
                 </div>
-
-                <ul>
-                    <li>Learning the fundamentals of web development, including HTML, CSS, and JavaScript.</li>
-                    <li>Building responsive web applications using modern frameworks and libraries.</li>
-                    <li>Gaining hands-on experience with version control systems like Git.</li>
-
+                <ul class="list-disc list-inside mt-4">
+                    <li>Mastering web development fundamentals: HTML, CSS, and JavaScript.</li>
+                    <li>Building responsive web applications using modern frameworks.</li>
+                    <li>Hands-on experience with Git & version control systems.</li>
                 </ul>
-                <p class="bg-[#D76239] text-white rounded-lg bg-center">Most Recent</p>
             </article>
 
-            <article class="Edu-card">
+            <!-- Capsicum Culinary Studio -->
+            <article class="Edu-card bg-gray-100 p-6 rounded-xl shadow-md mb-4">
                 <div>
-                    <h4>Fed 2021 - Dec 2023</h4>
-                    <h3>Capsicum Culinary Studio</h3>
-                    <p>Bachelor in Culinary Arts</p>
+                    <h4 class="text-lg font-semibold">Feb 2021 - Dec 2023</h4>
+                    <h3 class="text-xl font-bold">Capsicum Culinary Studio</h3>
+                    <p class="text-md font-medium">Bachelor in Culinary Arts</p>
                 </div>
+                <ul class="list-disc list-inside mt-4">
+                    <li>Developed quick problem-solving skills, adjusting recipes on the fly.</li>
+                    <li>Customized dishes based on dietary needs, refining creative problem-solving.</li>
+                    <li>Gained team collaboration experience, strengthening teamwork dynamics.</li>
+                </ul>
+            </article>
 
-                <ul>
-                    <li>Navigating unexpected challenges—like adjusting a recipe when ingredients ran out—taught me
-                        to
-                        think quickly and find alternative solutions.
+            <!-- Pinelands High School -->
+            <article class="Edu-card bg-gray-100 p-6 rounded-xl shadow-md">
+                <div>
+                    <h4 class="text-lg font-semibold">Jan 2016 - Nov 2020</h4>
+                    <h3 class="text-xl font-bold">Pinelands High School</h3>
+                    <p class="text-md font-medium">Matric | NQF Level 4</p>
+                </div>
+                <ul class="list-disc list-inside mt-4">
+                    <li>Built a foundation in Computer Applications Technology (CAT).</li>
+                    <li>Learned HTML fundamentals, sparking an interest in web development.</li>
+                    <li>Developed communication & teamwork skills, overcoming obstacles collaboratively.</li>
+                </ul>
+            </article>
+
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-lg px-10 py-8 
+                lg:col-span-1 sm:col-span-2 w-full">
+
+            <h2 class="text-xl font-bold text-center mb-6">Tools</h2>
+
+            <!-- Languages -->
+            <div class="mb-6">
+                <h3 class="bg-black text-white rounded-2xl text-center px-3 py-2 text-lg font-semibold">
+                    Languages
+                </h3>
+                <ul class="bg-[#E7F0EC] rounded-2xl grid grid-cols-2 gap-4 p-6">
+                    <li><img src="icons/html-logo.png" alt="HTML Logo" class="w-16 h-16"></li>
+                    <li><img src="icons/css-logo.png" alt="CSS Logo" class="w-16 h-16"></li>
+                    <li><img src="icons/tailwind-logo.png" alt="Tailwind Logo" class="w-16 h-16"></li>
+                    <li><img src="icons/node-logo.png" alt="Node.js Logo" class="w-16 h-16"></li>
+                </ul>
+            </div>
+
+            <!-- Design Tools -->
+            <div class="mb-6">
+                <h3 class="bg-black text-white rounded-2xl text-center px-3 py-2 text-lg font-semibold">
+                    Design
+                </h3>
+                <ul class="bg-[#E7F0EC] rounded-2xl grid grid-cols-2 gap-4 p-6">
+                    <li><img src="icons/icons8-google.png" alt="Google Design Tool" class="w-16 h-16"></li>
+                    <li><img src="icons/icons8-microsoft.png" alt="Microsoft Design Tool" class="w-16 h-16"></li>
+                </ul>
+            </div>
+
+            <!-- Development Tools -->
+            <div>
+                <h3 class="bg-black text-white rounded-2xl text-center px-3 py-2 text-lg font-semibold">
+                    Development Tools
+                </h3>
+                <ul class="bg-[#E7F0EC] rounded-2xl grid grid-cols-2 gap-4 p-6">
+                    <li><img src="icons/icons8-git.png" alt="Git Logo" class="w-16 h-16"></li>
+                    <li><img src="icons/icons8-github.png" alt="GitHub Logo" class="w-16 h-16"></li>
+                    <li><img src="icons/icons8-npm.png" alt="NPM Logo" class="w-16 h-16"></li>
+                    <li><img src="icons/icons8-visual-studio.png" alt="VS Code Logo" class="w-16 h-16"></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-lg px-10 py-8 
+                lg:col-span-4 sm:col-span-2 sm:row-span-1 lg:row-span-1">
+
+            <h2 class="text-xl font-bold text-center mb-6">Experience</h2>
+
+            <!-- Blockbuster Talent Agency -->
+            <article class="bg-[#2E6E5B] p-6 rounded-xl shadow-md mb-4 relative">
+                <p class="bg-[#D76239] text-white rounded-lg text-center px-4 py-2 absolute top-2 right-2">
+                    Most Recent
+                </p>
+                <div>
+                    <h4 class="text-lg font-semibold">Nov 2020 - Present</h4>
+                    <h3 class="text-xl font-bold">Blockbuster Talent Agency</h3>
+                    <p class="text-md font-medium">Actor / Background Actor</p>
+                </div>
+                <ul class="list-disc list-inside mt-4">
+                    <li>Learning web development fundamentals (HTML, CSS, JavaScript).</li>
+                    <li>Building responsive applications using modern frameworks.</li>
+                    <li>Gaining hands-on. experience with Git & version control.</li>
+                </ul>
+            </article>
+
+            <!-- Playtopia -->
+            <article class="bg-gray-100 p-6 rounded-xl shadow-md mb-4">
+                <div>
+                    <h4 class="text-lg font-semibold">Oct 2024 - Dec 2024</h4>
+                    <h3 class="text-xl font-bold">PlayTopia</h3>
+                    <p class="text-md font-medium">Volunteer</p>
+                </div>
+                <ul class="list-disc list-inside mt-4">
+                    <li>Technical Troubleshooting. Helping set up gaming hardware, assisting with VR setups, and solving
+                        tech issues.
                     </li>
-                    <li>Customizing dishes to meet dietary needs or preferences taught me how to approach
-                        problem-solving with creativity, much like refining design choices in development.</li>
-                    <li> Balancing individual responsibilities while contributing to group efforts strengthened my
-                        understanding of team dynamics in a professional setting.</li>
-
+                    <li>Creativity & Problem-Solving. Adapting to last-minute challenges, brainstorming solutions, and
+                        supporting exhibitors.
+                    </li>
+                    <li>Attention to Detail. Managing logistics, ensuring smooth demo experiences, and maintaining
+                        festival standards.</li>
                 </ul>
             </article>
 
-            <article class="Edu-card">
+            <!-- Pinelands High School -->
+            <article class="bg-gray-100 p-6 rounded-xl shadow-md">
                 <div>
-                    <h4>Jan 2016 - Nov 2020</h4>
-                    <h3>Pinelands High School</h3>
-                    <p>Matric|NQF level 4</p>
+                    <h4 class="text-lg font-semibold">Jan 2016 - Nov 2020</h4>
+                    <h3 class="text-xl font-bold">Pinelands High School</h3>
+                    <p class="text-md font-medium">Matric | NQF Level 4</p>
                 </div>
-
-
-                <ul>
-                    <li>I developed a strong foundation in Computer Applications Technology (CAT), which equipped me
-                        with essential digital skills and enhanced my confidence in navigating and working
-                        efficiently with computers.</li>
-                    <li>I built my first HTML foundations, learning how to structure web pages with semantic
-                        elements, experiment with basic styling, and develop a fundamental understanding of coding
-                        principles that sparked my passion.</li>
-                    <li>I learned how to communicate effectively, adapt to different perspectives, and work
-                        efficiently
-                        to overcome obstacles as part of a team.</li>
-
+                <ul class="list-disc list-inside mt-4">
+                    <li>Built a foundation in Computer Applications Technology (CAT).</li>
+                    <li>Learned HTML basics, sparking interest in web development.</li>
+                    <li>Strengthened communication & teamwork in collaborative projects.</li>
                 </ul>
-
             </article>
-        </section>
 
+        </section>
 
     </main>
 
-    <footer class="bg-[#D76239] text-white rounded-2xl shadow-lg">
+    <footer class="bg-[#D76239] w-full h-auto text-white p-7.26 rounded-2xl shadow-lg">
         <h2> Let's chat! I'm ready to work on exciting projects.</h2>
 
         <p>
