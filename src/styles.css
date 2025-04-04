@@ -2,45 +2,11 @@
 @import "font.css";
 
 
-. {
+.body {
 
     font-family: 'Poppins', sans-serif;
 
 }
-
-
-
-
-/* .profile-picture {
-    width: 36rem;
-    height: 36rem;
-    background-image: url(./pictures/profile-picture.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1.5rem;
-    ;
-
-} */
-
-.profile-info {
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 2px 2px 6px #dadada;
-    padding: 1.5rem;
-    text-wrap: normal;
-}
-
-header p {
-    font-size: 1rem;
-    color: #4A4A4A;
-    line-height: 1.5rem;
-    max-width: 32.5rem;
-    max-height: 36rem;
-
-}
-
-
-
 
 
 .levels {
@@ -99,47 +65,6 @@ header p {
 
 }
 
-
-.pill {
-    padding: 0.5rem 1rem;
-    background-color: #ECF4F1;
-    color: #000;
-    border-radius: 1.5rem;
-    font-size: 0.875rem;
-    font-weight: medium;
-    justify-content: center;
-    letter-spacing: 0.125rem;
-    list-style: none;
-
-}
-
-.card-1 {
-    background-color: #2E6E5B;
-    color: white;
-    border-radius: 0.75rem;
-    box-shadow: 2px 2px 2px #dadada;
-    padding: 1.5rem;
-    margin-bottom: 1.25rem;
-}
-
-.card {
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 2px 2px 2px #dadada;
-    padding: 1.5rem;
-    margin-bottom: 1.25rem;
-}
-
-.Edu-card-1 {
-    background-color: #2E6E5B;
-    color: white;
-    border-radius: 0.75rem;
-    box-shadow: 2px 2px 2px #dadada;
-    padding: 1.5rem;
-    margin-bottom: 1.25rem;
-    display: flex;
-    flex-direction: row;
-}
 
 .Edu-card {
     border-radius: 12px;
